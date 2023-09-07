@@ -1,0 +1,56 @@
+
+/*
+    No ultimo trabalho, você criou uma página apresentando um ponto turístico da sua cidade e os locais que você gosta de visitar.
+    Agora, crie um arquivo separado para definir as configurações de estilos que serão aplicadas nas páginas HTMLcriadas.
+    Utilize CSS para definir um background, seja uma cor ou imagem, para aplicar diferentes estilos de fonte, cores e tamanhos nos parágrafos, destacando os títulos com efeitos de estilo.
+*/
+
+/*background*/
+body{
+    background-color:#E6EFEA;
+}
+/*header*/
+header{
+    display: flex;
+}
+/*Estilos de fontes*/
+h1, h2, h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold ;
+    color: #090C13;
+}
+/*Destaque dos títulos com efeitos de estilos*/
+h1, h2, h3{
+    color: #0082E0; /*Mudança nas cores*/
+    text-shadow: 2px 2px 4px rgba(0, 130, 224, 0.5); /*Adicionar um efeito de sombra aos títulos*/
+}
+h1{
+    font-size: 40px;
+}
+h2{
+    font-size: 20px;
+}
+nav{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold ;
+        font-size: 15px;
+}
+nav ul{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #229A6D;
+}
+
+p{
+    font-family: Helvetica, sans-serif;
+    color: #011219; /*cores nos parágrafos*/
+    font-size: 15px; /*tamanhos nos parágrafos*/
+}
+p a{
+    color: #229A6D; 
+}
+
+
+
