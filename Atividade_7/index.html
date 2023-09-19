@@ -1,0 +1,64 @@
+<!--
+    Para esta atividade, use a página que você elaborou sobre o ponto turístico e os locais favoritos em sua cidade. 
+    Aplique os seus conhecimentos adquiridos em CSS para melhorar o código HTML que você desenvolveu, adicione estilos e torne suas páginas mais atratentes visualmente.
+    
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ponto turístico</title>
+    <!--Link com o CSS-->
+    <link rel="stylesheet" href="styles.css">
+    <!--Para usar a fonte Montserrat-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Raleway:wght@300&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <h1>Ponto turístico - Minha cidade</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#atracoes">Principais atrações</a></li>
+               <!--- Crie um link que irá direcionar para essa nova página-->
+               <li><a href="./locais.html" target="_blank">Outros locais para visitar em Ipojuca</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="inicio">
+            <h2>Ipojuca - Pernambuco</h2>
+            <p>A cidade de Ipojuca em Pernambuco é muito famosa principalmente pelas praias e cenários naturais. Especialmente Porto de Galinhas, que é uma das praias mais populares do Brasil, e atrai turistas de todo o mundo.</p>
+            <h2>Porto de Galinhas</h2>
+            <img src="./img/porto-letreiro.jpg" alt="Letreiro de Porto de Galinhas">
+            <p>A praia de Porto de Galinhas é uma das principais Praias de Ipojuca, famosa por suas piscinas naturais de águas cristalinas, onde os visitantes podem fazer snorkel e nadar com peixes coloridos. A praia também oferece uma excelente infraestrutura com restaurantes, bares e lojas.</p>
+        </section>
+        <section id="atracoes">
+            <h2>Principais atrações</h2>
+            <hr>
+            <h3>Piscinas naturais</h3> 
+            <div class="informacoes">
+                <p> Na maré baixa  os recifes de corais criam piscinas rasas ideais para observar os peixes, corais e outros animais marinhos. Uma das formas mais populares de acesso é por meio de passeios de jangada, onde os jangadeiros levamos visitenates para passeios guiados e fornecem equipamentos de snorkel para a visualização subaquática</p>
+                <img src="./img/piscinas-naturais.webp" alt="Piscinas naturais">
+            </div>
+            <h3>Projeto Hippocampus</h3>
+            <div class="informacoes">
+                <p>Projeto de preservação que se dedica a preservação de cavalos marinhos. e Reune diversos aquários não só com os cavalos marinhos mas tambem com outros tipos de animais marinhos.</p>
+                <img src="./img/projeto-hippocampus.jpg" alt="Projeto Hipocampus">             
+            </div>
+            <h3>Vila de Porto de Galinhas</h3>
+            <div class="informacoes">
+                <p>É um centro de atividade turística onde existem uma variedade de restaurantes, bares e lojas.</p>
+                <img src="./img/porto-de-galinhas.jpg" alt="Vila de Porto de Galinhas">
+            </div>
+            
+        </section>
+        
+    </main>
+    <footer><p>Ponto turístico Ipojuca, 2023.</p></footer>
+</body>
+</html>

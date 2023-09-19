@@ -1,0 +1,106 @@
+
+/*
+    Para esta atividade, use a página que você elaborou sobre o ponto turístico e os locais favoritos em sua cidade. 
+    Aplique os seus conhecimentos adquiridos em CSS para melhorar o código HTML que você desenvolveu, adicione estilos e torne suas páginas mais atratentes visualmente.
+        
+*/
+
+/*background*/
+body{
+    background-color:#E6EFEA;
+}
+/*header*/
+header{
+    display: flex;
+    flex-direction: column-reverse;
+}
+/*Barra de navegação*/
+nav{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold ;
+    font-size: 16px;
+}
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 18px;
+    display: flex;
+    justify-content: space-between;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #229A6D;
+}
+nav ul li a:hover{
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.2);
+}
+main{
+    padding: 0 10%;
+}
+
+/*Estilos de fontes*/
+h1, h2, h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+/*Destaque dos títulos com efeitos de estilos*/
+h1, h2{
+    color: #0082E0; /*Mudança nas cores*/
+    text-shadow: 2px 2px 4px rgba(0, 130, 224, 0.5); /*Adicionar um efeito de sombra aos títulos*/
+}
+h1{
+    font-size: 40px;
+    text-align: center;
+}
+h2{
+    font-size: 20px;
+    text-align: center;
+}
+hr{
+    border-radius: 5px;
+    border: none;
+    box-shadow: 2px 2px 4px rgba(0, 130, 224, 0.5);
+    background-color: #0082E0;
+    width: 30px;
+    height: 5px;
+}
+
+p{
+    font-family: Helvetica, sans-serif;
+    color: #011219; /*cores nos parágrafos*/
+    font-size: 16px; /*tamanhos nos parágrafos*/
+}
+p a{
+    color: #229A6D; 
+}
+main>p, #inicio{
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+    color: #229A6D;
+}
+.informacoes{
+    display: flex;
+    margin-bottom: 40px;
+
+    padding: 20px;
+    
+}
+.informacoes img{
+    width: 40%;
+    padding: 0 10%;
+}
+.informacoes p{
+    align-self: center;
+    text-align: justify;
+    padding-right: 5%;
+}
+/*Rodapé*/
+footer{
+    text-align: center;
+}
+
+
+
